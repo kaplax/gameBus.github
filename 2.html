@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/foundation/5.5.3/css/foundation.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/register2.css">
+</head>
+<body>
+<header>
+	<nav class="nav container">
+		<div>
+			<img src="img/logo2.png">
+			<a href="" class="active">首页</a>
+			<a href="">应用</a>
+			<ul style="display: none;">
+				<li>this is li</li>
+				<li>this is li</li>
+				<li>this is li</li>
+				<li>this is li</li>
+				<li>this is li</li>
+				<li>this is li</li>
+				<li>this is li</li>
+				<li>this is li</li>
+			</ul>
+		</div>
+		<div>
+			<p>已有账号,<a href="">直接登录&gt;&gt;</a></p>
+		</div>
+	</nav>
+</header>
+<div class="shadow hide"></div>
+<div class="alertMsg hide">
+	<h3>注册成功</h3>
+	<p>3秒后跳转首页</p>
+</div>
+<div class="container main">
+	<div class="registeContent">
+		<div class="registeType">
+			<ul>
+				<li class="active"><a href="#pg" data-pg="pg">手机注册</a></li>
+				<li><a href="#eg" data-eg="eg">邮箱注册</a></li>
+			</ul>
+		</div>
+		<div class="registeParts">
+			<div>
+				<div class="row" data-pg="pg" id="pg" data-row="row">
+					<div class="col-3 textRight">
+						<p>手机号</p>
+					</div>
+					<div class="col-6">
+						<input type="text" name="" data-phoneNum="phoneNumber">
+					</div>
+					<div class="col-3 ">
+						<div class="hidden" data-tips="tips">
+							<i></i>
+							<span></span>
+						</div>
+					</div>
+				</div>
+				<div class="row hide" data-eg="eg" id="eg" data-row="row">
+					<div class="col-3 textRight">
+						<p>邮箱地址</p>
+					</div>
+					<div class="col-6">
+						<input type="text" name="" data-Email="Email">
+					</div>
+					<div class="col-3 ">
+						<div class="hidden" data-tips="tips">
+							<i></i>
+							<span></span>
+						</div>
+					</div>
+				</div>
+				<div class="row" data-row="row">
+					<div class="col-3 textRight">
+						<p>昵称</p>
+					</div>
+					<div class="col-6">
+						<input type="text" name="" data-name="name">
+					</div>
+					<div class="col-3 textLeft">
+						<div class="hidden"  data-tips="tips">
+							<i></i><span></span>
+						</div>
+					</div>
+				</div>
+				<div class="row" data-row="row">
+					<div class="col-3 textRight">
+						<p>密码</p>
+					</div>
+					<div class="col-6">
+						<input type="password" name="" data-pwd="pwd">
+					</div>
+					<div class="col-3">
+						<div class="hidden" data-tips="tips"> 
+							<i></i><span></span>
+						</div>
+					</div>
+				</div>
+				<div class="row badOrGood">
+					<div class="col-3"></div>
+					<div class="col-6">
+						<ul>
+							<li class="weak">弱</li>
+							<li>中</li>
+							<li>强</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row" data-row="row">
+					<div class="col-3 textRight">
+						<p>确认密码</p>
+					</div>
+					<div class="col-6">
+						<input type="password" name="" data-repwd="repwd">
+					</div>
+					<div class="col-3">
+						<div class="hidden" data-tips="tips">
+							<i></i><span></span>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-3"></div>
+					<div class="col-6 align-content-center">
+						<canvas id="c1" style="width: 120px;height: 30px;"></canvas>
+						<button>换一组</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-3"></div>
+					<div>
+						<input type="checkbox" name="" data-clause="clause">
+						<label>我已经阅读并接受<a href="">《电玩巴士服务条款》</a></label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-3"></div>
+					<div class="col-6">
+						<input type="button" value="立即注册">
+					</div>
+				</div>
+			</div>
+			<div>
+				<a href="">
+					<img src="img/reg_ad.jpg">
+				</a>
+			</div> 
+		</div>
+	</div>
+</div>
+<footer class="container">
+	<div class="row">
+		<a href="">关于我们</a>
+		<a href="">广告投放</a>
+		<a href="">联系我们</a>
+		<a href="">网站地图</a>
+		<a href="">友情链接</a>
+		<a href="">诚聘英才</a>
+		<a href="">成为会员</a>
+		<a href="">版权声明</a>
+		<a href="">WAP手机版</a>
+		<a href="">渝ICP备14007792号-12</a>
+		<a href="">ICP:皖B2-20130011</a>
+		<a href="">广电节目制作（皖）字第00154号</a>
+		<a href="">皖公网安备34020302200005</a>
+		<a href="">皖网文许字[2014]1237-013号</a>
+	</div>
+</footer>
+<!-- jQuery 库 -->
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/register.js"></script>
+<!-- JavaScript 文件 -->
+<!-- <script src="http://cdn.static.runoob.com/libs/foundation/5.5.3/js/foundation.min.js"></script> -->
+
+<!-- modernizr.js 文件 -->
+<!-- <script src="http://cdn.static.runoob.com/libs/foundation/5.5.3/js/vendor/modernizr.js"></script> -->
+</body>
+</html>
